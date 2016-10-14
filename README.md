@@ -1,19 +1,15 @@
-Yii2 Template
+Alex Solomaha
 ============================
 
-This is my template for quick project development. Based on basic template
-but with environments and other features.
+My personal website
 
 
 DIRECTORY STRUCTURE
 -------------------
 
       assets/             contains assets definition
-      commands/           contains console commands (controllers)
       config/             contains application configurations
       controllers/        contains Web controller classes
-      mail/               contains view files for e-mails
-      models/             contains model classes
       runtime/            contains files generated during runtime
       vendor/             contains dependent 3rd-party packages
       views/              contains view files for the Web application
@@ -37,12 +33,6 @@ git clone https://github.com/CyanoFresh/yii2-my-template.git PROJECTNAME
 cd PROJECTNAME
 composer install
 php init
-~~~
-
-Then configure DB in config/db-local.php and run:
-
-~~~
-php yii migrate
 ~~~
 
 **NOTES:**
