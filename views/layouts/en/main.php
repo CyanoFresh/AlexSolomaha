@@ -69,37 +69,6 @@ $mainImageUrl = Url::to('', true) . Yii::getAlias('@web/img/main.jpg');
 <body>
 <?php $this->beginBody() ?>
 
-<?php
-NavBar::begin([
-    'brandLabel' => 'Alex <span>Solomaha</span>',
-    'brandUrl' => Yii::$app->homeUrl,
-    'brandOptions' => [
-        'class' => 'product-brand',
-    ],
-    'options' => [
-        'class' => 'navbar-inverse navbar-fixed-top',
-    ],
-]);
-
-$items = [
-    ['label' => 'Skills', 'url' => '#about'],
-    ['label' => 'What I am doing', 'url' => '#services'],
-    ['label' => 'Contacts', 'url' => '#contact'],
-    ['label' => FA::icon('language') . ' Русский', 'url' => ['/site/index', 'language' => 'ru']],
-    ['label' => 'Projects ' . FA::icon('external-link'), 'url' => '//hub.solomaha.com', 'linkOptions' => [
-        'target' => '_blank',
-    ]],
-];
-
-echo Nav::widget([
-    'options' => ['class' => 'navbar-nav navbar-right'],
-    'encodeLabels' => false,
-    'items' => $items,
-]);
-
-NavBar::end();
-?>
-
 <?= $content ?>
 
 <!-- Google Tag Manager -->

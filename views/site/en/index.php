@@ -1,6 +1,45 @@
 <?php
+
 /* @var $this yii\web\View */
+
+use rmrevin\yii\fontawesome\FA;
+use yii\bootstrap\Nav;
+use yii\bootstrap\NavBar;
+
 ?>
+
+<?php
+NavBar::begin([
+    'brandLabel' => 'Alex <span>Solomaha</span>',
+    'brandUrl' => Yii::$app->homeUrl,
+    'brandOptions' => [
+        'class' => 'product-brand',
+    ],
+    'options' => [
+        'class' => 'navbar-inverse navbar-fixed-top',
+    ],
+]);
+
+$items = [
+    ['label' => 'Skills', 'url' => '#about'],
+    ['label' => 'What I am doing', 'url' => '#services'],
+    ['label' => 'Contacts', 'url' => '#contact'],
+    ['label' => FA::icon('language') . ' Русский', 'url' => ['/site/index', 'language' => 'ru']],
+    ['label' => 'Projects ' . FA::icon('external-link'), 'url' => '//hub.solomaha.com', 'linkOptions' => [
+        'target' => '_blank',
+    ]],
+];
+
+echo Nav::widget([
+    'options' => ['class' => 'navbar-nav navbar-right'],
+    'encodeLabels' => false,
+    'items' => $items,
+]);
+
+NavBar::end();
+?>
+
+
 <header id="who-am-i">
     <div class="header-content">
         <div class="header-content-inner">

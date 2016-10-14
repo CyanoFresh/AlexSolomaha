@@ -12,7 +12,8 @@ class SiteController extends Controller
     {
         return [
             'error' => [
-                'class' => 'yii\web\ErrorAction',
+                'class' => 'app\components\ErrorAction',
+                'view' => '/error/index',
             ],
         ];
     }

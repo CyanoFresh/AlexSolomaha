@@ -3,7 +3,7 @@
 $params = require(__DIR__ . '/params.php');
 
 return [
-    'id' => 'alex-solomaha',
+    'id' => 'alexsolomaha',
     'name' => 'Alex Solomaha',
     'language' => 'ru',
     'basePath' => dirname(__DIR__),

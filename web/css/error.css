@@ -1,0 +1,33 @@
+body {
+    background: #222222;
+    color: #fff;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.container a.product-brand {
+    color: #a6a6a6;
+    font-size: 40px;
+}
+
+.container a.product-brand:hover {
+    text-decoration: none;
+    color: #d1d1d1;
+}
+
+.container h1 {
+    color: #fff;
+    margin: 80px 0 25px 0;
+}
+
+.container .message{
+    font-size: 20px;
+    margin-bottom: 80px;
+}
