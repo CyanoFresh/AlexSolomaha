@@ -2,9 +2,6 @@
 
 return [
     'components' => [
-        'mailer' => [
-            'useFileTransport' => false,
-        ],
         'request' => [
             'cookieValidationKey' => '',
         ],

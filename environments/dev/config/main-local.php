@@ -3,9 +3,6 @@
 return [
     'bootstrap' => ['debug', 'gii'],
     'components' => [
-        'mailer' => [
-            'useFileTransport' => true,
-        ],
         'request' => [
             'cookieValidationKey' => '',
         ],

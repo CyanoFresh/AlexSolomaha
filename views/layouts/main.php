@@ -3,13 +3,21 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+use rmrevin\yii\fontawesome\FA;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
-use yii\widgets\Breadcrumbs;
+use yii\helpers\Url;
 use app\assets\AppAsset;
 
 AppAsset::register($this);
+
+$title = Yii::$app->name;
+
+$description = 'Мой персональный сайт, чтобы Вы узнали кто я и чем занимаюсь, что умею';
+$keywords = 'Alex Solomaha Александр Соломаха Веб разработчик Web Developer Web Game Developer Embedded Developer PHP Yii 2 Framework MySQL HTML5 CSS3';
+
+$mainImageUrl = Url::to('', true) . Yii::getAlias('@web/img/main.jpg');
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -18,9 +26,33 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <?= Html::csrfMetaTags() ?>
 
-    <title><?= $this->title ?> - <?= Yii::$app->name ?></title>
+    <title><?= $title ?></title>
+
+    <meta name="og:url" content="<?= Url::to('', true) ?>">
+    <meta name="og:title" content="<?= $title ?>">
+    <meta name="og:site_name" content="<?= Yii::$app->name ?>">
+    <meta name="og:image" content="<?= $mainImageUrl ?>">
+    <meta name="og:type" content="profile">
+    <meta name="og:locale" content="<?= Yii::$app->language ?>">
+
+    <meta itemprop="name" content="<?= $title ?>">
+    <meta itemprop="image" content="<?= $mainImageUrl ?>">
+
+    <meta name="application-name" content="<?= Yii::$app->name ?>">
+    <meta name="subject" content="Alex Solomaha">
+    <meta name="classification" content="Personal site">
+
+    <meta name="theme-color" content="#f50057">
+
+    <link rel="image_src" href="<?= $mainImageUrl ?>">
+
+    <link rel="publisher" href="https://plus.google.com/+AlexSolomaha21">
+    <link rel="me" href="https://plus.google.com/+AlexSolomaha21" type="text/html">
+    <link rel="me" href="mailto:cyanofresh@gmail.com">
+    <link rel="me" href="sms:+380975300688">
 
     <?php $this->head() ?>
 
@@ -34,54 +66,56 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
-    <?php
-    NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]);
+<?php
+NavBar::begin([
+    'brandLabel' => 'Alex <span>Solomaha</span>',
+    'brandUrl' => Yii::$app->homeUrl,
+    'brandOptions' => [
+        'class' => 'product-brand',
+    ],
+    'options' => [
+        'class' => 'navbar-inverse navbar-fixed-top',
+    ],
+]);
 
-    $items = [
-        ['label' => 'Главная', 'url' => ['/site/index']],
-    ];
+$items = [
+    ['label' => 'Мои навыки', 'url' => '#about'],
+    ['label' => 'Чем занимаюсь', 'url' => '#services'],
+    ['label' => 'Контакты', 'url' => '#contact'],
+    ['label' => 'Проекты ' . FA::icon('external-link'), 'url' => '//hub.solomaha.com', 'linkOptions' => [
+        'target' => '_blank',
+    ]],
+];
 
-    if (Yii::$app->user->isGuest) {
-        $items[] = ['label' => 'Войти', 'url' => ['/site/login']];
-    } else {
-        $items[] = [
-            'label' => 'Выйти (' . Yii::$app->user->identity->username . ')',
-            'url' => ['/site/logout'],
-            'linkOptions' => ['data-method' => 'post'],
-        ];
-    }
+echo Nav::widget([
+    'options' => ['class' => 'navbar-nav navbar-right'],
+    'encodeLabels' => false,
+    'items' => $items,
+]);
 
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'encodeLabels' => false,
-        'items' => $items,
-    ]);
+NavBar::end();
+?>
 
-    NavBar::end();
-    ?>
+<?= $content ?>
 
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= $content ?>
-    </div>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; <?= Yii::$app->name ?> <?= date('Y') ?></p>
-
-        <p class="pull-right">By <a href="//solomaha.pp.ua">Alex Solomaha</a></p>
-    </div>
-</footer>
+<!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NM3DNV" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NM3DNV');</script>
+<!-- End Google Tag Manager -->
 
 <?php $this->endBody() ?>
 </body>

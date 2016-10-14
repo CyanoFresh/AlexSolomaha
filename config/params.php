@@ -2,8 +2,6 @@
 
 use yii\helpers\ArrayHelper;
 
-$params = [
-    'adminEmail' => 'admin@example.com',
-];
+$params = [];
 
 return ArrayHelper::merge($params, require 'params-local.php');
