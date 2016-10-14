@@ -14,8 +14,8 @@ AppAsset::register($this);
 
 $title = Yii::$app->name;
 
-$description = 'Мой персональный сайт, чтобы Вы узнали кто я и чем занимаюсь, что умею';
-$keywords = 'Alex Solomaha Александр Соломаха Веб разработчик Web Developer Web Game Developer Embedded Developer PHP Yii 2 Framework MySQL HTML5 CSS3';
+$description = 'My personal website to let you know who am I and what I am doing';
+$keywords = 'Alex Solomaha Web Developer Web Game Developer Embedded Developer PHP Yii 2 Framework MySQL HTML5 CSS3';
 
 $mainImageUrl = Url::to('', true) . Yii::getAlias('@web/img/main.jpg');
 ?>
@@ -40,7 +40,6 @@ $mainImageUrl = Url::to('', true) . Yii::getAlias('@web/img/main.jpg');
 
     <meta http-equiv="content-language" content="<?= Yii::$app->language ?>">
     <link rel="alternate" href="<?= Url::to(['/site/index', 'language' => 'ru'], true) ?>" hreflang="ru">
-    <link rel="alternate" href="<?= Url::to(['/site/index', 'language' => 'en'], true) ?>" hreflang="en">
 
     <meta itemprop="name" content="<?= $title ?>">
     <meta itemprop="image" content="<?= $mainImageUrl ?>">
@@ -83,11 +82,11 @@ NavBar::begin([
 ]);
 
 $items = [
-    ['label' => 'Мои навыки', 'url' => '#about'],
-    ['label' => 'Чем занимаюсь', 'url' => '#services'],
-    ['label' => 'Контакты', 'url' => '#contact'],
-    ['label' => FA::icon('language') . ' English', 'url' => ['/site/index', 'language' => 'en']],
-    ['label' => FA::icon('external-link') . ' Проекты', 'url' => '//hub.solomaha.com', 'linkOptions' => [
+    ['label' => 'Skills', 'url' => '#about'],
+    ['label' => 'What I am doing', 'url' => '#services'],
+    ['label' => 'Contacts', 'url' => '#contact'],
+    ['label' => FA::icon('language') . ' Русский', 'url' => ['/site/index', 'language' => 'ru']],
+    ['label' => 'Projects ' . FA::icon('external-link'), 'url' => '//hub.solomaha.com', 'linkOptions' => [
         'target' => '_blank',
     ]],
 ];
