@@ -3,10 +3,7 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use rmrevin\yii\fontawesome\FA;
 use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
 use yii\helpers\Url;
 use app\assets\AppAsset;
 
@@ -17,7 +14,7 @@ $title = Yii::$app->name;
 $description = 'Мой персональный сайт, чтобы Вы узнали кто я и чем занимаюсь, что умею';
 $keywords = 'Alex Solomaha Александр Соломаха Веб разработчик Web Developer Web Game Developer Embedded Developer PHP Yii 2 Framework MySQL HTML5 CSS3';
 
-$mainImageUrl = Url::to('', true) . Yii::getAlias('@web/img/main.jpg');
+$mainImageUrl = Url::home(true) . Yii::getAlias('@web/img/main.jpg');
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
