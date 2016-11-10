@@ -36,8 +36,7 @@ $mainImageUrl = Url::home(true) . Yii::getAlias('@web/img/main.jpg');
     <meta name="og:locale" content="<?= Yii::$app->language ?>">
 
     <meta http-equiv="content-language" content="<?= Yii::$app->language ?>">
-    <link rel="alternate" href="<?= Url::to(['/site/index', 'language' => 'ru'], true) ?>" hreflang="ru">
-    <link rel="alternate" href="<?= Url::to(['/site/index', 'language' => 'en'], true) ?>" hreflang="en">
+    <link rel="alternate" hreflang="en" href="<?= Url::to(['/site/index', 'language' => 'en'], true) ?>">
 
     <meta itemprop="name" content="<?= $title ?>">
     <meta itemprop="image" content="<?= $mainImageUrl ?>">
