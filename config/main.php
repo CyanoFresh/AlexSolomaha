@@ -29,6 +29,7 @@ return [
             'languages' => ['ru', 'en'],
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'enableLanguageDetection' => false,
             'rules' => [
                 '' => 'site/index',
             ],
