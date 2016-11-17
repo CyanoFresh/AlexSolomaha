@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
     <url>
-        <loc>https://solomaha.com</loc>
+        <loc>https://solomaha.com/</loc>
         <xhtml:link
 
                 rel="alternate"
@@ -25,7 +25,7 @@
                 rel="alternate"
                 hreflang="ru"
 
-                href="https://solomaha.com"
+                href="https://solomaha.com/"
 
         />
     </url>
@@ -53,7 +53,7 @@
                 rel="alternate"
                 hreflang="ru"
 
-                href="https://solomaha.com"
+                href="https://solomaha.com/"
 
         />
     </url>
