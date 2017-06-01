@@ -187,21 +187,21 @@ NavBar::end();
         <div class="text-center">
             <h2 class="section-heading">Keep in touch</h2>
             <hr class="primary">
-            <p>I prefer text messengers - VKontakte, Email, Hangouts. Also can receive phone calls for interviewing, but
+            <p>I prefer text messengers - Telegram, Email. Also can receive phone calls for interviewing, but
                 my speaking English is not so good</p>
         </div>
         <div class="row contact-ways">
             <div class="col-md-3 text-center contact-way">
-                <i class="fa fa-vk fa-3x"></i>
-                <p><a href="https://vk.com/alexsolomaha" target="_blank">vk.com/alexsolomaha</a></p>
+                <i class="fa fa-telegram fa-3x"></i>
+                <p><a href="https://t.me/CyanoFresh" target="_blank">t.me/CyanoFresh</a></p>
             </div>
             <div class="col-md-3 text-center contact-way">
                 <i class="fa fa-envelope-o fa-3x"></i>
                 <p><a href="mailto:cyanofresh@gmail.com">cyanofresh@gmail.com</a></p>
             </div>
             <div class="col-md-3 text-center contact-way">
-                <i class="fa fa-skype fa-3x"></i>
-                <p>CyanoFresh</p>
+                <i class="fa fa-vk fa-3x"></i>
+                <p><a href="https://vk.com/alexsolomaha" target="_blank">vk.com/alexsolomaha</a></p>
             </div>
             <div class="col-md-3 text-center contact-way">
                 <i class="fa fa-phone fa-3x"></i>
@@ -214,7 +214,7 @@ NavBar::end();
 <footer id="footer" class="bg-dark text-center">
     <div class="product-brand">Alex <span>Solomaha</span></div>
     <div class="project-belong">
-        all projects can be foun atd <a href="//hub.solomaha.com" target="_blank"
+        all projects can be found at <a href="//hub.solomaha.com" target="_blank"
                                       class="product-brand"><span>Solomaha</span> Hub</a>
     </div>
 </footer>

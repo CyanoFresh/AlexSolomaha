@@ -186,21 +186,21 @@ NavBar::end();
         <div class="text-center">
             <h2 class="section-heading">Как со мной связаться</h2>
             <hr class="primary">
-            <p>Для меня удобнее через чат-мессенджеры - ВКонтакте, Email, Hangouts. Так-же можно и по телефону, для
+            <p>Для меня удобнее через мессенджеры - Telegram, Email. Также можно и по телефону, для
                 интервью/знакомства</p>
         </div>
         <div class="row contact-ways">
             <div class="col-md-3 text-center contact-way">
-                <i class="fa fa-vk fa-3x"></i>
-                <p><a href="https://vk.com/alexsolomaha" target="_blank">vk.com/alexsolomaha</a></p>
+                <i class="fa fa-telegram fa-3x"></i>
+                <p><a href="https://t.me/CyanoFresh" target="_blank">t.me/CyanoFresh</a></p>
             </div>
             <div class="col-md-3 text-center contact-way">
                 <i class="fa fa-envelope-o fa-3x"></i>
                 <p><a href="mailto:cyanofresh@gmail.com">cyanofresh@gmail.com</a></p>
             </div>
             <div class="col-md-3 text-center contact-way">
-                <i class="fa fa-skype fa-3x"></i>
-                <p>CyanoFresh</p>
+                <i class="fa fa-vk fa-3x"></i>
+                <p><a href="https://vk.com/alexsolomaha" target="_blank">vk.com/alexsolomaha</a></p>
             </div>
             <div class="col-md-3 text-center contact-way">
                 <i class="fa fa-phone fa-3x"></i>
