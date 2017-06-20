@@ -44,7 +44,13 @@ return [
             'bundles' => [
                 'yii\bootstrap\BootstrapAsset' => [
                     'css' => [],
-//                    'js' => [],
+                    'js' => [],
+                    'depends' => [],
+                ],
+                'yii\bootstrap\BootstrapPluginAsset' => [
+                    'css' => [],
+                    'js' => [],
+                    'depends' => [],
                 ],
             ],
         ],

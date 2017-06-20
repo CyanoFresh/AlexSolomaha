@@ -14,7 +14,7 @@ $title = Yii::$app->name;
 $description = 'My personal website to let you know who am I and what I am doing';
 $keywords = 'Alex Solomaha Web Developer Web Game Developer Embedded Developer PHP Yii 2 Framework MySQL HTML5 CSS3';
 
-$mainImageUrl = Url::home(true) . Yii::getAlias('@web/img/main.jpg');
+$mainImageUrl = Url::home(true) . 'img/main.jpg';
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
