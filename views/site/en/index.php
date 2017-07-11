@@ -49,24 +49,24 @@ NavBar::end();
 
             <p>Web Developer, Web Game Developer, Embedded Developer</p>
 
+            <a href="https://t.me/CyanoFresh" target="_blank" class="btn btn-primary btn-lg btn-social"
+               title="Telegram">
+                <i class="fa fa-fw fa-telegram"></i>
+            </a>
+
+            <a href="mailto:cyanofersh@gmail.com" target="_blank" class="btn btn-primary btn-lg"
+               title="Write an Email">
+                <i class="fa fa-fw fa-envelope"></i>
+            </a>
+
             <a href="https://vk.com/alexsolomaha" target="_blank" class="btn btn-primary btn-lg btn-social"
-               title="Профиль ВКонтакте">
+               title="VKontakte">
                 <i class="fa fa-fw fa-vk"></i>
             </a>
 
             <a href="https://github.com/CyanoFresh" target="_blank" class="btn btn-primary btn-lg"
-               title="Профиль ВКонтакте">
+               title="Github">
                 <i class="fa fa-fw fa-github"></i>
-            </a>
-
-            <a href="mailto:cyanofersh@gmail.com" target="_blank" class="btn btn-primary btn-lg"
-               title="Написать на Email">
-                <i class="fa fa-fw fa-envelope"></i>
-            </a>
-
-            <a href="https://www.youtube.com/channel/UC9Fcko0zVnapJvSZh0wzaJw" target="_blank"
-               class="btn btn-primary btn-lg" title="Канал YouTube">
-                <i class="fa fa-fw fa-youtube-play"></i>
             </a>
         </div>
     </div>
