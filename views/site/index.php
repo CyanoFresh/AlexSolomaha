@@ -58,11 +58,6 @@ NavBar::end();
                 <i class="fa fa-fw fa-envelope"></i>
             </a>
 
-            <a href="https://vk.com/alexsolomaha" target="_blank" class="btn btn-primary btn-lg btn-social"
-               title="Профиль ВКонтакте">
-                <i class="fa fa-fw fa-vk"></i>
-            </a>
-
             <a href="https://github.com/CyanoFresh" target="_blank" class="btn btn-primary btn-lg"
                title="GitHub">
                 <i class="fa fa-fw fa-github"></i>
@@ -86,7 +81,10 @@ NavBar::end();
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Yii" target="_blank">Yii 2 Framework</a>
                     <a class="skill"
                        href="https://ru.wikipedia.org/wiki/Bootstrap_(%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA)"
-                       target="_blank">Bootstrap 3</a>
+                       target="_blank">Bootstrap</a>
+                    <a class="skill"
+                       href="https://ru.wikipedia.org/wiki/Node.js"
+                       target="_blank">NodeJS</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a>
                     <a class="skill"
                        href="https://ru.wikipedia.org/wiki/CSS#.D0.A3.D1.80.D0.BE.D0.B2.D0.B5.D0.BD.D1.8C_3_.28CSS3.29"
@@ -94,25 +92,26 @@ NavBar::end();
                     <a class="skill" href="https://ru.wikipedia.org/wiki/WebSocket" target="_blank">WebSockets</a>
                     <a class="skill" href="http://socketo.me/" target="_blank">RatchetPHP</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/JQuery" target="_blank">jQuery</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/AJAX" target="_blank">Ajax</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/MySQL" target="_blank">MySQL</a>
+                    <a class="skill" href="https://ru.wikipedia.org/wiki/SQL" target="_blank">SQL Databases</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Git" target="_blank">Git</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/GitHub" target="_blank">GitHub</a>
                     <a class="skill"
                        href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F"
-                       target="_blank">SEO</a>
-                    <a class="skill"
-                       href="https://ru.wikipedia.org/wiki/%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_%D1%81%D0%B0%D0%B9%D1%82%D0%B0_%D0%BF%D0%BE%D0%B4_%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D1%81%D0%B5%D1%82%D0%B8"
-                       target="_blank">SMO</a>
+                       target="_blank">SEO&SMO</a>
+                    <a class="skill" href="https://ru.wikipedia.org/wiki/Nginx" target="_blank">Nginx</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Apache_HTTP_Server" target="_blank">Apache</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/Ubuntu" target="_blank">Linux Ubuntu</a>
+                    <a class="skill" href="https://ru.wikipedia.org/wiki/Ubuntu" target="_blank">Ubuntu Server</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Linux" target="_blank">Terminal Linux</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/PhpStorm" target="_blank">PhpStorm</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Adobe_Photoshop" target="_blank">Adobe
                         Photoshop</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Adobe_Premiere_Pro" target="_blank">Adobe
                         Premiere
                         Pro</a>
+                    <a class="skill" href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D0%B2%D0%B5%D1%89%D0%B5%D0%B9" target="_blank">
+                        IoT
+                    </a>
+                    <a class="skill" href="https://ru.wikipedia.org/wiki/ESP8266" target="_blank">
+                        ESP8266
+                    </a>
                 </div>
 
                 <a href="#services" class="btn btn-primary">Чем занимаюсь</a>
@@ -164,7 +163,7 @@ NavBar::end();
                     <i class="fa fa-4x fa-youtube-play text-primary"></i>
                     <h3>Видео</h3>
                     <p class="text-muted">
-                        Люблю снимать видео, а после делать монтаж и выкладывать на YouTube.
+                        Иногда снимаю видео, делаю монтаж и заливаю на YouTube.
                     </p>
                 </div>
             </div>
@@ -190,19 +189,15 @@ NavBar::end();
                 интервью/знакомства</p>
         </div>
         <div class="row contact-ways">
-            <div class="col-md-3 text-center contact-way">
+            <div class="col-md-4 text-center contact-way">
                 <i class="fa fa-telegram fa-3x"></i>
                 <p><a href="https://t.me/CyanoFresh" target="_blank">t.me/CyanoFresh</a></p>
             </div>
-            <div class="col-md-3 text-center contact-way">
+            <div class="col-md-4 text-center contact-way">
                 <i class="fa fa-envelope-o fa-3x"></i>
                 <p><a href="mailto:cyanofresh@gmail.com">cyanofresh@gmail.com</a></p>
             </div>
-            <div class="col-md-3 text-center contact-way">
-                <i class="fa fa-vk fa-3x"></i>
-                <p><a href="https://vk.com/alexsolomaha" target="_blank">vk.com/alexsolomaha</a></p>
-            </div>
-            <div class="col-md-3 text-center contact-way">
+            <div class="col-md-4 text-center contact-way">
                 <i class="fa fa-phone fa-3x"></i>
                 <p>+380975300688</p>
             </div>
