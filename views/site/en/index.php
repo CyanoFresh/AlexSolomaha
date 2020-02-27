@@ -25,9 +25,9 @@ $items = [
     ['label' => 'What I am doing', 'url' => '#services'],
     ['label' => 'Contacts', 'url' => '#contact'],
     ['label' => FA::icon('language') . ' Русский', 'url' => ['/site/index', 'language' => 'ru']],
-    ['label' => 'Projects ' . FA::icon('external-link'), 'url' => '//hub.solomaha.com', 'linkOptions' => [
-        'target' => '_blank',
-    ]],
+//    ['label' => 'Projects ' . FA::icon('external-link'), 'url' => '//hub.solomaha.com', 'linkOptions' => [
+//        'target' => '_blank',
+//    ]],
 ];
 
 echo Nav::widget([
@@ -47,7 +47,7 @@ NavBar::end();
 
             <hr class="light">
 
-            <p>Web Developer, Web Game Developer, Embedded Developer</p>
+            <p>FullStack Web Developer, Embedded Developer</p>
 
             <a href="https://t.me/CyanoFresh" target="_blank" class="btn btn-primary btn-lg btn-social"
                title="Telegram">
@@ -59,17 +59,20 @@ NavBar::end();
                 <i class="fa fa-fw fa-envelope"></i>
             </a>
 
-            <a href="https://vk.com/alexsolomaha" target="_blank" class="btn btn-primary btn-lg btn-social"
-               title="VKontakte">
-                <i class="fa fa-fw fa-vk"></i>
-            </a>
-
             <a href="https://github.com/CyanoFresh" target="_blank" class="btn btn-primary btn-lg"
                title="Github">
                 <i class="fa fa-fw fa-github"></i>
             </a>
         </div>
     </div>
+
+    <a href="https://docs.google.com/document/d/1dBKmKGlaVpKjP7XtOvBbSXMhaCjVuGLAdlrgPO5vbbc/edit?usp=sharing"
+       target="_blank"
+       class="btn btn-primary btn-lg btn-main"
+       title="GitHub">
+        <i class="fa fa-fw fa-file-text"></i>
+        curriculum vitae
+    </a>
 </header>
 
 <section class="bg-dark" id="about">
@@ -83,40 +86,33 @@ NavBar::end();
                 <p class="text-faded">My skills and abilities which I use in my life&work:</p>
 
                 <div class="skills">
+                    <a class="skill" href="https://nodejs.org/" target="_blank">NodeJS</a>
+                    <a class="skill" href="https://reactjs.org/" target="_blank">React</a>
                     <a class="skill" href="https://wikipedia.org/wiki/PHP" target="_blank">PHP</a>
                     <a class="skill" href="https://wikipedia.org/wiki/Yii" target="_blank">Yii 2 Framework</a>
-                    <a class="skill"
-                       href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
-                       target="_blank">Bootstrap 3</a>
-                    <a class="skill" href="https://wikipedia.org/wiki/HTML5" target="_blank">HTML5</a>
-                    <a class="skill"
-                       href="https://wikipedia.org/wiki/CSS"
-                       target="_blank">CSS3</a>
-                    <a class="skill" href="https://wikipedia.org/wiki/WebSocket" target="_blank">WebSockets</a>
-                    <a class="skill" href="http://socketo.me/" target="_blank">RatchetPHP</a>
+                    <a class="skill" href="https://wikipedia.org/wiki/WebSocket" target="_blank">Real Time messaging</a>
                     <a class="skill" href="https://wikipedia.org/wiki/JQuery" target="_blank">jQuery</a>
-                    <a class="skill" href="https://wikipedia.org/wiki/AJAX" target="_blank">Ajax</a>
                     <a class="skill" href="https://wikipedia.org/wiki/MySQL" target="_blank">MySQL</a>
                     <a class="skill" href="https://wikipedia.org/wiki/Git" target="_blank">Git</a>
-                    <a class="skill" href="https://wikipedia.org/wiki/GitHub" target="_blank">GitHub</a>
                     <a class="skill"
                        href="https://wikipedia.org/wiki/SEO"
                        target="_blank">SEO</a>
-                    <a class="skill"
-                       href="https://wikipedia.org/wiki/SMO"
-                       target="_blank">SMO</a>
-                    <a class="skill" href="https://wikipedia.org/wiki/Apache_HTTP_Server" target="_blank">Apache</a>
-                    <a class="skill" href="https://wikipedia.org/wiki/Ubuntu" target="_blank">Linux Ubuntu</a>
-                    <a class="skill" href="https://wikipedia.org/wiki/Linux" target="_blank">Terminal Linux</a>
-                    <a class="skill" href="https://wikipedia.org/wiki/PhpStorm" target="_blank">PhpStorm</a>
+                    <a class="skill" href="https://wikipedia.org/wiki/Ubuntu" target="_blank">Ubuntu Server</a>
+                    <a class="skill" href="https://wikipedia.org/wiki/Nginx" target="_blank">Nginx</a>
                     <a class="skill" href="https://wikipedia.org/wiki/Adobe_Photoshop" target="_blank">Adobe
                         Photoshop</a>
                     <a class="skill" href="https://wikipedia.org/wiki/Adobe_Premiere_Pro" target="_blank">Adobe
                         Premiere
                         Pro</a>
+                    <a class="skill" href="https://wikipedia.org/wiki/Internet_of_things" target="_blank">
+                        IoT
+                    </a>
+                    <a class="skill" href="https://wikipedia.org/wiki/ESP8266" target="_blank">
+                        ESP8266
+                    </a>
                 </div>
 
-                <a href="#services" class="btn btn-primary">Чем занимаюсь</a>
+                <a href="#services" class="btn btn-primary">What I am doing</a>
             </div>
         </div>
     </div>
@@ -177,7 +173,7 @@ NavBar::end();
     <div class="container text-center">
         <div class="call-to-action">
             <h2>My works you can find here</h2>
-            <a href="//portfolio.solomaha.com" rel="nofollow" class="btn btn-primary btn-xl">Portfolio</a>
+            <a class="btn btn-primary btn-xl">Portfolio</a>
         </div>
     </div>
 </aside>
@@ -214,7 +210,7 @@ NavBar::end();
 <footer id="footer" class="bg-dark text-center">
     <div class="product-brand">Alex <span>Solomaha</span></div>
     <div class="project-belong">
-        all projects can be found at <a href="//hub.solomaha.com" target="_blank"
+        all projects can be found at <a target="_blank"
                                       class="product-brand"><span>Solomaha</span> Hub</a>
     </div>
 </footer>

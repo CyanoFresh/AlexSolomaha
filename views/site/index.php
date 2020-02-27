@@ -46,7 +46,7 @@ NavBar::end();
 
             <hr class="light">
 
-            <p>Fullstack Web Developer, Embedded Developer</p>
+            <p>FullStack Web Developer, Embedded Developer</p>
 
             <a href="https://t.me/CyanoFresh" target="_blank" class="btn btn-primary btn-lg btn-social"
                title="Telegram">
