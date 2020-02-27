@@ -130,37 +130,39 @@ NavBar::end();
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-globe text-primary"></i>
-                    <h3>Веб разработка</h3>
+                    <i class="fa fa-4x fa-chrome text-primary"></i>
+                    <h3>Frontend</h3>
                     <p class="text-muted">
-                        Разработка веб сайтов и приложений любой сложности. Чем сложнее - тем интересней
+                        Проектирование пользовательских интерфейсов, UX разработка.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-server text-primary"></i>
+                    <h3>Backend</h3>
+                    <p class="text-muted">
+                        Проектирование и разработка веб приложений любой сложности.
                     </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-wifi text-primary"></i>
-                    <h3><abbr title="Internet of Things (Интернет вещей)">IoT</abbr></h3>
+                    <h3 title="Internet of Things (Интернет вещей)">
+                        IoT
+                    </h3>
                     <p class="text-muted">
-                        Разрабатываю IoT системы на микроконтроллере ESP8266 (Умный дом, автоматизация)
+                        Разработка систем интернета вещей и систем умного дома под ключ.
                     </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-language text-primary"></i>
-                    <h3>Перевод</h3>
+                    <h3>Telegram</h3>
                     <p class="text-muted">
-                        Владею тремя языками: Английский, Украинский, Русский. Люблю переводить связанное с IT
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-youtube-play text-primary"></i>
-                    <h3>Видео</h3>
-                    <p class="text-muted">
-                        Иногда снимаю видео, делаю монтаж и заливаю на YouTube.
+                        Создание ботов для обратной связи, игр, каталогов и других целей.
                     </p>
                 </div>
             </div>

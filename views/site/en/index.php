@@ -131,37 +131,39 @@ NavBar::end();
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-globe text-primary"></i>
-                    <h3>Web Development</h3>
+                    <i class="fa fa-4x fa-chrome text-primary"></i>
+                    <h3>Frontend</h3>
                     <p class="text-muted">
-                        I am developing web sites any difficulty. The harder the better
+                        Creating user interfaces, developing UX using React.js
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-server text-primary"></i>
+                    <h3>Backend</h3>
+                    <p class="text-muted">
+                        Developing web applications any with difficulty.
                     </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-wifi text-primary"></i>
-                    <h3><abbr title="Internet of Things">IoT</abbr></h3>
+                    <h3 title="Internet of Things (Интернет вещей)">
+                        IoT
+                    </h3>
                     <p class="text-muted">
-                        I am developing IoT systems on the controller ESP8266 (Smart Home, Automation)
+                        Creating Internet of Things and home automation systems for customer.
                     </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-language text-primary"></i>
-                    <h3>Translation</h3>
+                    <h3>Telegram</h3>
                     <p class="text-muted">
-                        I know 3 languages: Ukrainian, Russian, English. I'd like to translate technical texts
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-youtube-play text-primary"></i>
-                    <h3>Video</h3>
-                    <p class="text-muted">
-                        I like making videos, then mount it and then public on YouTube
+                        Developing Telegram Bots for feedback, games, catalogs and other uses.
                     </p>
                 </div>
             </div>
@@ -187,19 +189,15 @@ NavBar::end();
                 my speaking English is not so good</p>
         </div>
         <div class="row contact-ways">
-            <div class="col-md-3 text-center contact-way">
+            <div class="col-md-4 text-center contact-way">
                 <i class="fa fa-telegram fa-3x"></i>
                 <p><a href="https://t.me/CyanoFresh" target="_blank">t.me/CyanoFresh</a></p>
             </div>
-            <div class="col-md-3 text-center contact-way">
+            <div class="col-md-4 text-center contact-way">
                 <i class="fa fa-envelope-o fa-3x"></i>
                 <p><a href="mailto:cyanofresh@gmail.com">cyanofresh@gmail.com</a></p>
             </div>
-            <div class="col-md-3 text-center contact-way">
-                <i class="fa fa-vk fa-3x"></i>
-                <p><a href="https://vk.com/alexsolomaha" target="_blank">vk.com/alexsolomaha</a></p>
-            </div>
-            <div class="col-md-3 text-center contact-way">
+            <div class="col-md-4 text-center contact-way">
                 <i class="fa fa-phone fa-3x"></i>
                 <p>+380975300688</p>
             </div>
