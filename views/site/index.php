@@ -25,9 +25,9 @@ $items = [
     ['label' => 'Чем занимаюсь', 'url' => '#services'],
     ['label' => 'Контакты', 'url' => '#contact'],
     ['label' => FA::icon('language') . ' English', 'url' => ['/site/index', 'language' => 'en']],
-    ['label' => FA::icon('external-link') . ' Проекты', 'url' => '//hub.solomaha.com', 'linkOptions' => [
-        'target' => '_blank',
-    ]],
+//    ['label' => FA::icon('external-link') . ' Проекты', 'url' => '//hub.solomaha.com', 'linkOptions' => [
+//        'target' => '_blank',
+//    ]],
 ];
 
 echo Nav::widget([
@@ -46,7 +46,7 @@ NavBar::end();
 
             <hr class="light">
 
-            <p>Web Developer, Web Game Developer, Embedded Developer</p>
+            <p>Fullstack Web Developer, Embedded Developer</p>
 
             <a href="https://t.me/CyanoFresh" target="_blank" class="btn btn-primary btn-lg btn-social"
                title="Telegram">
@@ -64,6 +64,14 @@ NavBar::end();
             </a>
         </div>
     </div>
+
+    <a href="https://docs.google.com/document/d/1dBKmKGlaVpKjP7XtOvBbSXMhaCjVuGLAdlrgPO5vbbc/edit?usp=sharing"
+       target="_blank"
+       class="btn btn-primary btn-lg btn-main"
+       title="GitHub">
+        <i class="fa fa-fw fa-file-text"></i>
+        Резюме
+    </a>
 </header>
 
 <section class="bg-dark" id="about">
@@ -77,30 +85,19 @@ NavBar::end();
                 <p class="text-faded">Мои навыки и технологии, которые использую в работе:</p>
 
                 <div class="skills">
+                    <a class="skill" href="https://nodejs.org/" target="_blank">NodeJS</a>
+                    <a class="skill" href="https://reactjs.org/" target="_blank">React</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/PHP" target="_blank">PHP</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Yii" target="_blank">Yii 2 Framework</a>
-                    <a class="skill"
-                       href="https://ru.wikipedia.org/wiki/Bootstrap_(%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA)"
-                       target="_blank">Bootstrap</a>
-                    <a class="skill"
-                       href="https://ru.wikipedia.org/wiki/Node.js"
-                       target="_blank">NodeJS</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a>
-                    <a class="skill"
-                       href="https://ru.wikipedia.org/wiki/CSS#.D0.A3.D1.80.D0.BE.D0.B2.D0.B5.D0.BD.D1.8C_3_.28CSS3.29"
-                       target="_blank">CSS3</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/WebSocket" target="_blank">WebSockets</a>
-                    <a class="skill" href="http://socketo.me/" target="_blank">RatchetPHP</a>
+                    <a class="skill" href="https://ru.wikipedia.org/wiki/WebSocket" target="_blank">Realtime Messaging</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/JQuery" target="_blank">jQuery</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/SQL" target="_blank">SQL Databases</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Git" target="_blank">Git</a>
                     <a class="skill"
                        href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F"
-                       target="_blank">SEO&SMO</a>
+                       target="_blank">SEO & SMO</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Nginx" target="_blank">Nginx</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/Apache_HTTP_Server" target="_blank">Apache</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Ubuntu" target="_blank">Ubuntu Server</a>
-                    <a class="skill" href="https://ru.wikipedia.org/wiki/Linux" target="_blank">Terminal Linux</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Adobe_Photoshop" target="_blank">Adobe
                         Photoshop</a>
                     <a class="skill" href="https://ru.wikipedia.org/wiki/Adobe_Premiere_Pro" target="_blank">Adobe
@@ -175,7 +172,7 @@ NavBar::end();
     <div class="container text-center">
         <div class="call-to-action">
             <h2>Мои работы можно увидеть здесь</h2>
-            <a href="http://portfolio.solomaha.com" rel="nofollow" class="btn btn-primary btn-xl">Портфолио</a>
+            <a class="btn btn-primary btn-xl">Портфолио</a>
         </div>
     </div>
 </aside>
@@ -208,6 +205,6 @@ NavBar::end();
 <footer id="footer" class="bg-dark text-center">
     <div class="product-brand">Alex <span>Solomaha</span></div>
     <div class="project-belong">
-        все проекты можно найти на <a href="//hub.solomaha.com" target="_blank" class="product-brand"><span>Solomaha</span> Hub</a>
+        все проекты можно найти на <a target="_blank" class="product-brand"><span>Solomaha</span> Hub</a>
     </div>
 </footer>

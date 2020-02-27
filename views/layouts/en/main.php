@@ -50,8 +50,6 @@ $mainImageUrl = Url::home(true) . 'img/main.jpg';
 
     <link rel="image_src" href="<?= $mainImageUrl ?>">
 
-    <link rel="publisher" href="https://plus.google.com/+AlexSolomaha21">
-    <link rel="me" href="https://plus.google.com/+AlexSolomaha21" type="text/html">
     <link rel="me" href="mailto:cyanofresh@gmail.com">
     <link rel="me" href="sms:+380975300688">
 

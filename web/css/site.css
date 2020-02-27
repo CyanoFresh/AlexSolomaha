@@ -14,13 +14,24 @@ header {
     background: #222222 url('../img/header.jpg') no-repeat center;
     text-align: center;
     color: white;
+    min-height: 100%;
 }
 
 header .header-content {
     position: relative;
     text-align: center;
-    padding: 100px 15px 100px;
+    padding: 200px 15px 150px;
     width: 100%;
+}
+
+header .btn-main {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 16px 60px;
 }
 
 header .header-content .header-content-inner h1 {
@@ -42,9 +53,6 @@ header .header-content .header-content-inner p {
 }
 
 @media (min-width: 768px) {
-    header {
-        min-height: 100%;
-    }
     header .header-content {
         position: absolute;
         top: 50%;
@@ -63,6 +71,9 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         margin-left: auto;
         margin-right: auto;
+    }
+    header .btn-main {
+        bottom: 60px;
     }
 }
 
@@ -206,3 +217,7 @@ aside {
 /*.navbar-brand {
     line-height: 18px;
 }*/
+
+.navbar-nav > li > a {
+    font-weight: 700;
+}
